@@ -1,0 +1,7 @@
+name "Lucas Antonsen"
+student_id "V00923982"
+email "lucasantonsen@uvic.ca"
+term "2022-05"
+course "SENG475"
+section "T01"
+assignment "cpp_project"

@@ -1,0 +1,13 @@
+#! /usr/bin/bash
+
+failure(){
+	echo "ERROR: $@"
+	exit 1
+}
+
+dir=$(dirname "$0") || failure "Directory not found"
+
+avl_interpreter="$dir/interpreter"
+test_file="$dir/res/test.txt"
+echo "Running avl map demo"
+$avl_interpreter < $test_file
