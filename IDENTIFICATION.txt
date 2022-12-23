@@ -1,6 +1,6 @@
 name "Lucas Antonsen"
-student_id "V00923982"
-email "lucasantonsen@uvic.ca"
+student_id
+email
 term "2022-05"
 course "SENG475"
 section "T01"
