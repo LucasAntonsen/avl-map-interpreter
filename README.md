@@ -4,21 +4,19 @@
 
 ---
 
-Implementation of ```std::map``` using an AVL-tree (AVL-Map). Given the balanced nature of AVL-trees, the complexities below are observed for core functions in AVL-Map.
+Implementation of ```std::map``` using an AVL-tree (AVL-Map). Given the balanced nature of AVL-trees, the complexities below are observed for core functions in AVL-Map:
 
-#### Complexity
-
-Search: **O(log(n))**  
-Insert: **O(log(n))**  
-Delete: **O(log(n))**
+- Search: **O(log(n))**  
+- Insert: **O(log(n))**  
+- Delete: **O(log(n))**
 
 ---
 
 #### Interpreter
 
-Interpreter uses strings for keys and integers for values.
+The AVL-Map-Interpreter uses strings for keys and integers for values.
 
-To run interpreter for AVL-Map:
+To run interpreter:
 
 ```./interpreter```
 
