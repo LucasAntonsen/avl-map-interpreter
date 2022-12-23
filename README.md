@@ -4,7 +4,7 @@
 
 ---
 
-Implementation of ```std::map``` using an AVL-tree (AVL-Map).
+Implementation of ```std::map``` using an AVL-tree (AVL-Map). Given the balanced nature of AVL-trees, the complexities below are observed for core functions in AVL-Map.
 
 #### Complexity
 
